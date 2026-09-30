@@ -1,0 +1,30 @@
+.product-card {
+    border: 1px solid #dee2e6;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.product-image img {
+    width: 100%;
+    display: block;
+}
+
+.product-info {
+    flex: 1;
+}
+
+@media (min-width: 768px) {
+    .product-card {
+        flex-direction: row;
+    }
+
+    .product-image {
+        flex: 1;
+    }
+
+    .product-info {
+        flex: 1;
+    }
+}
