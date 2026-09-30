@@ -1,13 +1,13 @@
 .product-card {
-    border: 1px solid #dee2e6;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+    border: 1px solid #dee2e6; /*Borde al rededor*/
+    padding: 20px; /*Espacio interno*/
+    display: flex; /*Contenedor flexbox*/
+    flex-direction: column; /*Para el orden de los elementos (vertical)*/
+    gap: 20px; /*Separación entre los elementos internos*/
 }
 
 .product-image img {
-    width: 100%;
+    width: 100%; /*tamaño de la imagen respecto a su contenedor*/
     display: block;
 }
 
@@ -15,9 +15,10 @@
     flex: 1;
 }
 
+/*Vista para PC*/
 @media (min-width: 768px) {
     .product-card {
-        flex-direction: row;
+        flex-direction: row; /*Orden de vista en fila (horizontal)*/
     }
 
     .product-image {
